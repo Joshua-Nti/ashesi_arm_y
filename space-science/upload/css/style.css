@@ -38,36 +38,33 @@ img {
 	width: auto;
 }
 #header div {
-	display: flex; /* Add flex display */
-	justify-content: space-between; /* Position items at the ends */
-	align-items: center; /* Vertically center items */
+	margin: 0 auto;
+	max-width: 940px;
+	min-height: 60px;
+	padding: 0 10px;
 }
-
 #header div a.logo {
-	display: inline-block;
+	display: block;
+	float: left;
 	height: 60px;
+	margin: 0 44px 0 0;
 	padding: 0;
-	width: 2px;
-	order: 0; /* Change the order to position logos on the right */
+	width: 304px;
 }
-
+#header div a img {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
 #header div ul {
 	display: inline-block;
+	float: left;
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	width: auto;
-	order: 2; /* Change the order to position links on the left */
 }
-
-#logos {
-	display: flex;
-  }
-  
-  .logo {
-	margin-right: 100px; /* Adjust the spacing between logos */
-  }
-  
 #header div ul li {
 	float: left;
 	margin: 0;
@@ -90,12 +87,12 @@ img {
 	width: auto;
 }
 #header div ul li a:hover {
-	background-color: #002b49;
+	background-color: #008FBE;
 	color: #ffffff;
 }
 #header div ul li.selected a {
 	background-color: #000000;
-	color: #f0bb00;
+	color: #a3a3a3;
 }
 #header div ul li.menu {
 	position: relative;
@@ -129,7 +126,7 @@ img {
 	width: auto;
 }
 #header div ul li.menu ul li a {
-	background-color: #002b49;
+	background-color: #008FBE;
 	color: #ffffff;
 	display: block;
 	font-family: Arial;
@@ -145,7 +142,7 @@ img {
 }
 #header div ul li.menu ul.primary.selected li a, #header div ul li.menu ul.secondary.selected li a {
 	background-color: #000000;
-	color: #f0bb00;
+	color: #a3a3a3;
 }
 /*----------------------------------------body-home-styles---------------------------------------*/
 #body {
@@ -193,7 +190,7 @@ img {
 	display: block;
 	float: right;
 	font-family: audiowide-regular-webfont;
-	font-size: 55px;
+	font-size: 60px;
 	font-weight: normal;
 	line-height: 60px;
 	margin: 187px 0 27px;
@@ -221,8 +218,8 @@ img {
 	z-index: 60;
 }
 #body.home .header div a.more {
-	background-color: #ffc700;
-	color: #333e48;
+	background-color: #000000;
+	color: #a3a3a3;
 	display: block;
 	float: right;
 	font-family: Arial;
@@ -237,15 +234,14 @@ img {
 	position: relative;
 	width: 180px;
 	z-index: 55;
-	border-radius: 5px;
 }
 #body.home .header div a.more:hover {
-	background-color: #f6d452;
+	background-color: #008FBE;
 	color: #ffffff;
 }
 #body.home .header div h3 {
 	background: url("../images/bg-transparent1.png") repeat;
-	color: #f0bb00;
+	color: #A3A3A3;
 	float: left;
 	font-family: audiowide-regular-webfont;
 	font-size: 23px;
@@ -300,7 +296,7 @@ img {
 	opacity: 0.7;
 }
 #body.home .body {
-	background-color: #0091bd;
+	background-color: #002B49;
 	margin: 0;
 	min-height: 168px;
 	overflow: hidden;
@@ -349,7 +345,7 @@ img {
 	text-decoration: underline;
 }
 #body.home .body div p a:hover {
-	color: #333e48;
+	color: #a3a3a3;
 }
 #body.home .footer {
 	background-color: #000000;
@@ -440,7 +436,7 @@ img {
 	width: 440px;
 }
 #body.home .footer div ul li ul li {
-	border-top: 1px solid #333e48;
+	border-top: 1px solid #A3A3A3;
 	float: none;
 	margin: 0;
 	overflow: hidden;
@@ -475,7 +471,7 @@ img {
 	opacity: 0.7;
 }
 #body.home .footer div ul li ul li h1 {
-	color: #f6d452;
+	color: #A3A3A3;
 	float: left;
 	font-family: audiowide-regular-webfont;
 	font-size: 23px;
@@ -502,7 +498,7 @@ img {
 	width: 310px;
 }
 #body.home .footer div ul li ul li a.more {
-	background-color: #f0bb00;
+	background-color: #002B49;
 	color: #ffffff;
 	display: block;
 	float: right;
@@ -518,7 +514,7 @@ img {
 	width: 120px;
 }
 #body.home .footer div ul li ul li a.more:hover {
-	background-color: #002b49;
+	background-color: #008FBE;
 }
 /*----------------------------------------body-styles---------------------------------------*/
 #body.about .header {
@@ -583,10 +579,10 @@ img {
 	text-decoration: underline;
 }
 #body.about .header div p a:hover {
-	color: #333e48;
+	color: #a3a3a3;
 }
 #body.about .body {
-	background-color: #002b49;
+	background-color: #008FBE;
 	margin: 0;
 	min-height: 253px;
 	overflow: hidden;
@@ -600,7 +596,7 @@ img {
 	padding: 36px 10px 35px;
 }
 #body.about .body div h2 {
-	color: #f0bb00;
+	color: #A3A3A3;
 	float: left;
 	font-family: audiowide-regular-webfont;
 	font-size: 23px;
@@ -636,7 +632,7 @@ img {
 	text-decoration: underline;
 }
 #body.about .body div p a:hover {
-	color: #333e48;
+	color: #a3a3a3;
 }
 #body.about .body div img {
 	display: block;
@@ -659,7 +655,7 @@ img {
 	width: 950px;
 }
 #body.about .footer div h2 {
-	color: #f0bb00;
+	color: #A3A3A3;
 	float: right;
 	font-family: audiowide-regular-webfont;
 	font-size: 23px;
@@ -695,7 +691,7 @@ img {
 	text-decoration: underline;
 }
 #body.about .footer div p a:hover {
-	color: #333e48;
+	color: #a3a3a3;
 }
 #body.about .footer div img {
 	float: left;
@@ -705,7 +701,7 @@ img {
 	width: auto;
 }
 #body.about .section {
-	background-color: #46535f;
+	background-color: #002B49;
 	margin: 0;
 	min-height: 234px;
 	padding: 0;
@@ -718,7 +714,7 @@ img {
 	padding: 58px 0 55px;
 }
 #body.about .section div h2 {
-	color: #f0bb00;
+	color: #A3A3A3;
 	display: block;
 	font-family: audiowide-regular-webfont;
 	font-size: 23px;
@@ -753,7 +749,7 @@ img {
 	text-decoration: underline;
 }
 #body.about .section div p a:hover {
-	color: #333e48;
+	color: #a3a3a3;
 }
 #body .header {
 	margin: 0 auto;
@@ -772,7 +768,7 @@ img {
 	padding: 0 0 38px;
 }
 #body .header div ul li {
-	border-top: 1px solid #333e48;
+	border-top: 1px solid #A3A3A3;
 	margin: 0;
 	overflow: hidden;
 	padding: 38px 0;
@@ -807,7 +803,7 @@ img {
 	width: 520px;
 }
 #body .header div ul li div h1 {
-	color: #f6d452;
+	color: #A3A3A3;
 	font-family: audiowide-regular-webfont;
 	font-size: 23px;
 	font-weight: normal;
@@ -844,10 +840,10 @@ img {
 	width: auto;
 }
 #body .header div ul li div p a:hover {
-	color: #333e48;
+	color: #a3a3a3;
 }
 #body .header div ul li div a.more {
-	background-color: #002b49;
+	background-color: #002B49;
 	color: #ffffff;
 	display: block;
 	float: right;
@@ -863,7 +859,7 @@ img {
 	width: 120px;
 }
 #body .header div ul li div a.more:hover {
-	background-color: #333e48;
+	background-color: #008FBE;
 }
 #body .header div img {
 	display: block;
@@ -872,7 +868,7 @@ img {
 	width: auto;
 }
 #body .header div h2 {
-	color: #333e48;
+	color: #A3A3A3;
 	display: block;
 	font-family: audiowide-regular-webfont;
 	font-size: 23px;
@@ -907,7 +903,7 @@ img {
 	text-decoration: underline;
 }
 #body .header div p a:hover {
-	color: #333e48;
+	color: #a3a3a3;
 }
 #body .header div .article {
 	float: left;
@@ -927,7 +923,7 @@ img {
 	padding: 0 0 38px;
 }
 #body .header div .article ul li {
-	border-top: 1px solid #333e48;
+	border-top: 1px solid #a3a3a3;
 	margin: 0;
 	overflow: hidden;
 	padding: 38px 0 38px;
@@ -954,7 +950,7 @@ img {
 	opacity: 0.7;
 }
 #body .header div .article ul li h1 {
-	color: #f6d452;
+	color: #A3A3A3;
 	font-family: audiowide-regular-webfont;
 	font-size: 23px;
 	font-weight: normal;
@@ -1004,10 +1000,10 @@ img {
 	width: auto;
 }
 #body .header div .article ul li p a:hover {
-	color: #333e48;
+	color: #a3a3a3;
 }
 #body .header div .article ul li a.more {
-	background-color: #002b49;
+	background-color: #002B49;
 	color: #ffffff;
 	display: block;
 	float: right;
@@ -1023,7 +1019,7 @@ img {
 	width: 120px;
 }
 #body .header div .article ul li a.more:hover {
-	background-color: #333e48;
+	background-color: #008FBE;
 }
 #body .header div .sidebar {
 	float: left;
@@ -1043,7 +1039,7 @@ img {
 	padding: 0 0 34px;
 }
 #body .header div .sidebar ul li {
-	border-top: 1px solid #333e48;
+	border-top: 1px solid #A3A3A3;
 	margin: 0;
 	overflow: hidden;
 	padding: 32px 0 34px;
@@ -1083,7 +1079,7 @@ img {
 	opacity: 0.7;
 }
 #body .header div .sidebar ul li h2 {
-	color: #f6d452;
+	color: #A3A3A3;
 	font-family: audiowide-regular-webfont;
 	font-size: 23px;
 	font-weight: normal;
@@ -1146,7 +1142,7 @@ img {
 	opacity: 0.7;
 }
 #body .header div .sidebar ul li ul li h2 {
-	color: #f6d452;
+	color: #A3A3A3;
 	float: left;
 	font-family: audiowide-regular-webfont;
 	font-size: 23px;
@@ -1178,7 +1174,7 @@ img {
 	width: auto;
 }
 #body .header div .article h1 {
-	color: #333e48;
+	color: #A3A3A3;
 	font-family: audiowide-regular-webfont;
 	font-size: 23px;
 	font-weight: normal;
@@ -1224,10 +1220,10 @@ img {
 	text-decoration: underline;
 }
 #body .header div .article p a:hover {
-	color: #333e48;
+	color: #a3a3a3;
 }
 #body .header .contact h2 {
-	color: #f6d452;
+	color: #A3A3A3;
 	display: block;
 	font-family: audiowide-regular-webfont;
 	font-size: 23px;
@@ -1246,7 +1242,7 @@ img {
 	width: 461px;
 }
 #body .header div form input {
-	background-color: #e5eceb;
+	background-color: #A3A3A3;
 	border: medium none;
 	color: #000000;
 	display: block;
@@ -1262,7 +1258,7 @@ img {
 	width: 441px;
 }
 #body .header div form textarea {
-	background-color: #e5eceb;
+	background-color: #A3A3A3;
 	border: medium none;
 	color: #000000;
 	display: block;
@@ -1280,7 +1276,7 @@ img {
 	width: 441px;
 }
 #body .header div form input#submit {
-	background-color: #002b49;
+	background-color: #002B49;
 	color: #ffffff;
 	cursor: pointer;
 	display: block;
@@ -1297,7 +1293,7 @@ img {
 	width: 120px;
 }
 #body .header div form input#submit:hover {
-	background-color: #333e48;
+	background-color: #008FBE;
 }
 /*----------------------------------------footer-styles---------------------------------------*/
 #footer {
@@ -1306,7 +1302,7 @@ img {
 	width: auto;
 }
 #footer .connect {
-	background-color: #333e48;
+	background-color: #a3a3a3;
 	margin: 0;
 	min-height: 84px;
 	overflow: hidden;
